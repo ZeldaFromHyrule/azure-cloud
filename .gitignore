@@ -23,3 +23,36 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files (terraform state)
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+
+# Exclude override files (optional)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+
+# Sensitive variable files (if you keep them locally)
+*.tfvars
+*.tfvars.json
+
+# Backup files created by editors
+*.bak
+*.backup
+
+# Ignore plan output files
+*.tfplan
+terraform/.terraform.lock.hcl
+AzuriteConfig
